@@ -16,8 +16,6 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 while True:
 
-    transient_movement_flag = False
-    
     ret, frame = cap.read()
     
     if(mtd.detect(frame)):
